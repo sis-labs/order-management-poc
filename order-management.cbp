@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Linker>
+			<Add library="/usr/lib/x86_64-linux-gnu/libuuid.so" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libpthread.so" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libsmime3.so" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libssl3.so" />
+		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
