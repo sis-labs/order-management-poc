@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1575121628 source:/home/georgette/dev/order-manager/order-management/main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<ctime>
+	<uuid/uuid.h>
+
