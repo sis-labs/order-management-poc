@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -38,7 +40,9 @@
 			<Add library="/usr/lib/x86_64-linux-gnu/libsmime3.so" />
 			<Add library="/usr/lib/x86_64-linux-gnu/libssl3.so" />
 		</Linker>
+		<Unit filename="include/shipping-service.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/shipping-service.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
